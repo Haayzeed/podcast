@@ -1,3 +1,6 @@
+body{
+  margin: 0; padding: 0;
+}
 #container {
   text-align: center;
 
@@ -24,4 +27,53 @@
 
 #container a {
   text-decoration: none;
+}
+
+.left-image{
+  width: 70%;
+  height: 25vh;
+}
+.right-image{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.welcome{
+  position: absolute;
+  top: 5%;
+  left: 20px;
+  color: white;
+}
+.h3, h3{
+  font-weight: bold;
+  color: black
+}
+.input{
+  border: 1px solid black;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.button, .button-native{
+  --background: #54E97E !important;
+  height: 45px !important;
+  --border-radius: 20px !important;
+  margin-bottom: 20px;
+
+}
+.footer-grid{
+  position: absolute;
+  bottom: 0;
+}
+.bottom-left-image{
+  width: 70%;
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  z-index: 5;
+}
+.bottom-right-image{
+  position: absolute;
+  right: 0px !important;
+  bottom: 0;
 }

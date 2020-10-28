@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'user',
+    loadChildren: () => import('./user/user.module').then( m => m.UserPageModule)
+  },
+  {
+    path: 'podcast-details',
+    loadChildren: () => import('./podcast-details/podcast-details.module').then( m => m.PodcastDetailsPageModule)
+  },
+  {
+    path: 'play-podcast',
+    loadChildren: () => import('./play-podcast/play-podcast.module').then( m => m.PlayPodcastPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,62 @@
+body{
+    margin: 0; padding: 0;
+  }
+  #container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  .left-image{
+    width: 70%;
+    height: 20vh;
+  }
+  .right-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .welcome{
+    position: absolute;
+    top: 5%;
+    left: 20px;
+    color: white;
+  }
+  h6{
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .box{
+      display: flex;
+      justify-content: center !important;
+      text-align: center;
+      align-items: center;
+  }
+.box-play .h6{
+    text-align: right;
+    color: black;
+}
